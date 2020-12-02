@@ -397,7 +397,12 @@ VERSION "2020-07-21"  =
       Concreto_Cuatro_O_Mas_Pisos
     );
 
-    D_BooleanoTipo = BOOLEAN;
+    D_BooleanoTipo = (
+      !!@ ili2db.dispName = "Sí"
+      si,
+      !!@ ili2db.dispName = "No"
+      no
+    );
 
     D_CalificarTipo = (
       Residencial,
@@ -2265,7 +2270,7 @@ VERSION "2020-07-21"  =
       /** Indica si el interesado autoriza notificación vía correo electrónico
        */
       !!@ ili2db.dispName = "Autoriza notificación correo"
-      Autoriza_Notificacion_Correo : BOOLEAN;
+      Autoriza_Notificacion_Correo : Captura_Geo_V0_5.D_BooleanoTipo;
     END Interesado;
 
     !!@ ili2db.dispName = "Ofertas mercado inmobiliario"
@@ -2330,7 +2335,7 @@ VERSION "2020-07-21"  =
       /** Indica si el predio tiene matricula inmobiliaria.
        */
       !!@ ili2db.dispName = "Tiene FMI"
-      Tiene_FMI : BOOLEAN;
+      Tiene_FMI : Captura_Geo_V0_5.D_BooleanoTipo;
       /** Circulo registral
        */
       !!@ ili2db.dispName = "Código ORIP"
@@ -2342,7 +2347,7 @@ VERSION "2020-07-21"  =
       /** Indica si el predio según la información registral cuenta con el valor de área en la cabida y linderos.
        */
       !!@ ili2db.dispName = "¿El predio tiene área registral?"
-      Tiene_Area_Registral : BOOLEAN;
+      Tiene_Area_Registral : Captura_Geo_V0_5.D_BooleanoTipo;
       !!@ ili2db.dispName = "Área registral en metros cuadrados"
       Area_Registral_M2 : 0.00 .. 10000000000000000000000.00 [LADM_COL_V3_0.m2];
       !!@ ili2db.dispName = "¿Verificó los datos registrales?"
@@ -2383,12 +2388,14 @@ VERSION "2020-07-21"  =
       Predio_Tipo : Captura_Geo_V0_5.D_PredioTipo;
       !!@ ili2db.dispName = "¿Verificó el tipo de Predio?"
       Validacion_Tipo_Predio : BOOLEAN;
+      !!@ ili2db.dispName = "¿Verificó los derechos asociados al Predio?"
+      Validacion_derechos : BOOLEAN;
       !!@ ili2db.dispName = "Resultado de la visita predial"
       Resultado_Visita : Captura_Geo_V0_5.D_ResultadoVisitaTipo;
       /** Indica si dentro del proceso de formación o actualización catastral se suscribe acta de colindancia para el predio objeto de levantamiento catastral.
        */
       !!@ ili2db.dispName = "¿Se suscribe acta de colindancia?"
-      Suscribe_Acta_Colindancia : BOOLEAN;
+      Suscribe_Acta_Colindancia : Captura_Geo_V0_5.D_BooleanoTipo;
       !!@ ili2db.dispName = "Fecha de visita predial"
       Fecha_Visita_predial : INTERLIS.XMLDate;
       !!@ ili2db.dispName = "Tipo de documento de quien atendió la visita predial"
