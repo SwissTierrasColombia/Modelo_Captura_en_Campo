@@ -2232,7 +2232,7 @@ VERSION "2020-07-21"  =
     BASKET OID AS INTERLIS.UUIDOID;
     OID AS INTERLIS.UUIDOID;
 
-    !!@ ili2db.dispName = "Adjunto"
+    !!@ ili2db.dispName = "(CCA) Adjunto"
     STRUCTURE CCA_Adjunto =
       !!@ ili2db.dispName = "Archivo"
       Archivo : TEXT;
@@ -2416,82 +2416,6 @@ VERSION "2020-07-21"  =
       Origen_Derecho : Captura_Geo_V0_8.CCA_OrigenDerechoTipo;
     END CCA_Derecho;
 
-    /** Es la parte que tiene una relación con el predio por algún tipo de derecho, restricción, publicidad o responsabilidad
-     */
-    !!@ ili2db.dispName = "(CCA) Interesado"
-    CLASS CCA_Interesado =
-      /** Tipo de persona del que se trata
-       */
-      !!@ ili2db.dispName = "Tipo persona"
-      Tipo : MANDATORY Captura_Geo_V0_8.CCA_InteresadoTipo;
-      /** Tipo de documento del que se trata.
-       */
-      !!@ ili2db.dispName = "Tipo de documento"
-      Tipo_Documento : MANDATORY Captura_Geo_V0_8.CCA_InteresadoDocumentoTipo;
-      /** Documento de identidad del interesado.
-       */
-      !!@ ili2db.dispName = "Documento de identidad"
-      Documento_Identidad : MANDATORY TEXT*50;
-      /** Primer nombre de la persona física.
-       */
-      !!@ ili2db.dispName = "Primer nombre"
-      Primer_Nombre : TEXT*100;
-      /** Segundo nombre de la persona física.
-       */
-      !!@ ili2db.dispName = "Segundo nombre"
-      Segundo_Nombre : TEXT*100;
-      /** Primer apellido de la persona física.
-       */
-      !!@ ili2db.dispName = "Primer apellido"
-      Primer_Apellido : TEXT*100;
-      /** Segundo apellido de la persona física.
-       */
-      !!@ ili2db.dispName = "Segundo apellido"
-      Segundo_Apellido : TEXT*100;
-      !!@ ili2db.dispName = "Nombre"
-      Nombre : TEXT;
-      /** Condición orgánica que distingue a los machos de las hembras.
-       */
-      !!@ ili2db.dispName = "Sexo"
-      Sexo : Captura_Geo_V0_8.CCA_SexoTipo;
-      !!@ ili2db.dispName = "Grupo étnico"
-      Grupo_Etnico : Captura_Geo_V0_8.CCA_GrupoEtnico;
-      /** Nombre con el que está inscrito.
-       */
-      !!@ ili2db.dispName = "Razón social"
-      Razon_Social : TEXT*255;
-      !!@ ili2db.dispName = "Adjunto 1"
-      Adjunto : TEXT;
-      !!@ ili2db.dispName = "Adjunto 2"
-      Adjunto_2 : TEXT;
-      !!@ ili2db.dispName = "Cuota de participación"
-      Cuota_Participacion : 0.0000000000 .. 1.0000000000;
-      /** Departamento de residencia del interesado.
-       */
-      !!@ ili2db.dispName = "Departamento"
-      Departamento : TEXT*100;
-      /** Municipio de residencia del interesado.
-       */
-      !!@ ili2db.dispName = "Municipio"
-      Municipio : TEXT*100;
-      /** Dirección de residencia del interesado.
-       */
-      !!@ ili2db.dispName = "Dirección de residencia"
-      Direccion_Residencia : TEXT*500;
-      /** Numero de telefono de contacto del interesado.
-       */
-      !!@ ili2db.dispName = "Teléfono"
-      Telefono1 : TEXT*20;
-      /** Correo electrónico del interesado.
-       */
-      !!@ ili2db.dispName = "Correo electrónico"
-      Correo_Electronico : TEXT*100;
-      /** Indica si el interesado autoriza notificación vía correo electrónico
-       */
-      !!@ ili2db.dispName = "Autoriza notificación correo"
-      Autoriza_Notificacion_Correo : Captura_Geo_V0_8.CCA_BooleanoTipo;
-    END CCA_Interesado;
-
     !!@ ili2db.dispName = "(CCA) Ofertas mercado inmobiliario"
     CLASS CCA_OfertasMercadoInmobiliario =
       !!@ ili2db.dispName = "Tipo de oferta"
@@ -2521,7 +2445,7 @@ VERSION "2020-07-21"  =
        */
       !!@ ili2db.dispName = "Identificador único de operación"
       Id_Operacion : MANDATORY TEXT*30;
-      /** Corresponde al código del departamento al cual pertenece el predio. Es asignado por DIVIPOLA y tiene 2 dígitos.
+      /** Corresponde al nombre departamento y municipio al cual pertenece el predio. Es asignado por la descripción dispuesta por el DIVIPOLA.
        */
       !!@ ili2db.dispName = "Departamento - Municipio"
       Departamento_Municipio : MANDATORY TEXT*255;
@@ -2593,8 +2517,8 @@ VERSION "2020-07-21"  =
       Area_Total_Terreno : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
       !!@ ili2db.dispName = "Predio Matriz"
       Predio_Matriz : TEXT;
-      !!@ ili2db.dispName = "Coeficiente"
-      Coeficiente : 0.0000000000 .. 1.0000000000;
+      !!@ ili2db.dispName = "Coeficiente de Copropiedad"
+      Coeficiente_Copropiedad : 0.0000000000 .. 1.0000000000;
       !!@ ili2db.dispName = "¿Verificó la condición del predio?"
       Validacion_Condicion_Predio : BOOLEAN;
       /** Es la clasificación para fines estadísticos que se da a cada inmueble en su conjunto–terreno, construcciones o edificaciones-, en el momento de la identificación predial de conformidad con la actividad predominante que en él se desarrolle.
@@ -2602,13 +2526,13 @@ VERSION "2020-07-21"  =
       !!@ ili2db.dispName = "Destinación económica"
       Destinacion_Economica : Captura_Geo_V0_8.CCA_DestinacionEconomicaTipo;
       !!@ ili2db.dispName = "¿Verificó los datos de destinación económica?"
-      Validacion_Destinacion_economica : BOOLEAN;
+      Validacion_Destinacion_Economica : BOOLEAN;
       !!@ ili2db.dispName = "Tipo de predio"
       Predio_Tipo : Captura_Geo_V0_8.CCA_PredioTipo;
       !!@ ili2db.dispName = "¿Verificó el tipo de Predio?"
       Validacion_Tipo_Predio : BOOLEAN;
       !!@ ili2db.dispName = "¿Verificó los derechos asociados al Predio?"
-      Validacion_derechos : BOOLEAN;
+      Validacion_Derechos : BOOLEAN;
       !!@ ili2db.dispName = "Resultado de la visita predial"
       Resultado_Visita : Captura_Geo_V0_8.CCA_ResultadoVisitaTipo;
       /** Indica si dentro del proceso de formación o actualización catastral se suscribe acta de colindancia para el predio objeto de levantamiento catastral.
@@ -2667,8 +2591,6 @@ VERSION "2020-07-21"  =
       Servidumbre_Transito : BOOLEAN;
       !!@ ili2db.dispName = "Área terreno"
       Area : MANDATORY 0.0 .. 99999999999999.9 [LADM_COL_V3_0.m2];
-      !!@ ili2db.dispName = "Proyección"
-      Proyeccion : TEXT*20;
       Geometria : ISO19107_PLANAS_V3_0.GM_MultiSurface3D;
     END CCA_Terreno;
 
@@ -2845,6 +2767,80 @@ VERSION "2020-07-21"  =
       Observacion : LADM_COL_V3_0.LADM_Nucleo.CharacterString;
     END CCA_FuenteAdministrativa;
 
+    /** Es la parte que tiene una relación con el predio por algún tipo de derecho, restricción, publicidad o responsabilidad
+     */
+    !!@ ili2db.dispName = "(CCA) Interesado"
+    CLASS CCA_Interesado =
+      /** Tipo de persona del que se trata
+       */
+      !!@ ili2db.dispName = "Tipo persona"
+      Tipo : MANDATORY Captura_Geo_V0_8.CCA_InteresadoTipo;
+      /** Tipo de documento del que se trata.
+       */
+      !!@ ili2db.dispName = "Tipo de documento"
+      Tipo_Documento : MANDATORY Captura_Geo_V0_8.CCA_InteresadoDocumentoTipo;
+      /** Documento de identidad del interesado.
+       */
+      !!@ ili2db.dispName = "Documento de identidad"
+      Documento_Identidad : MANDATORY TEXT*50;
+      /** Primer nombre de la persona física.
+       */
+      !!@ ili2db.dispName = "Primer nombre"
+      Primer_Nombre : TEXT*100;
+      /** Segundo nombre de la persona física.
+       */
+      !!@ ili2db.dispName = "Segundo nombre"
+      Segundo_Nombre : TEXT*100;
+      /** Primer apellido de la persona física.
+       */
+      !!@ ili2db.dispName = "Primer apellido"
+      Primer_Apellido : TEXT*100;
+      /** Segundo apellido de la persona física.
+       */
+      !!@ ili2db.dispName = "Segundo apellido"
+      Segundo_Apellido : TEXT*100;
+      !!@ ili2db.dispName = "Nombre"
+      Nombre : TEXT;
+      /** Condición orgánica que distingue a los machos de las hembras.
+       */
+      !!@ ili2db.dispName = "Sexo"
+      Sexo : Captura_Geo_V0_8.CCA_SexoTipo;
+      !!@ ili2db.dispName = "Grupo étnico"
+      Grupo_Etnico : Captura_Geo_V0_8.CCA_GrupoEtnico;
+      /** Nombre con el que está inscrito.
+       */
+      !!@ ili2db.dispName = "Razón social"
+      Razon_Social : TEXT*255;
+      !!@ ili2db.dispName = "Adjunto"
+      Adjunto : BAG {0..*} OF Captura_Geo_V0_8.Captura_Geo.CCA_Adjunto;
+      !!@ ili2db.dispName = "Cuota de participación"
+      Cuota_Participacion : 0.0000000000 .. 1.0000000000;
+      /** Departamento de residencia del interesado.
+       */
+      !!@ ili2db.dispName = "Departamento"
+      Departamento : TEXT*100;
+      /** Municipio de residencia del interesado.
+       */
+      !!@ ili2db.dispName = "Municipio"
+      Municipio : TEXT*100;
+      /** Dirección de residencia del interesado.
+       */
+      !!@ ili2db.dispName = "Dirección de residencia"
+      Direccion_Residencia : TEXT*500;
+      /** Numero de telefono de contacto del interesado.
+       */
+      !!@ ili2db.dispName = "Teléfono"
+      Telefono1 : TEXT*20;
+      /** Correo electrónico del interesado.
+       */
+      !!@ ili2db.dispName = "Correo electrónico"
+      Correo_Electronico : TEXT*100;
+      /** Indica si el interesado autoriza notificación vía correo electrónico
+       */
+      !!@ ili2db.dispName = "Autoriza notificación correo"
+      Autoriza_Notificacion_Correo : Captura_Geo_V0_8.CCA_BooleanoTipo;
+    END CCA_Interesado;
+
     !!@ ili2db.dispName = "(CCA) Punto control"
     CLASS CCA_PuntoControl
     EXTENDS CCA_Punto =
@@ -2997,11 +2993,6 @@ VERSION "2020-07-21"  =
       Geometria : ISO19107_PLANAS_V3_0.GM_MultiSurface3D;
     END CCA_UnidadConstruccion;
 
-    ASSOCIATION cca_derecho_interesado =
-      interesado -- {0..1} CCA_Interesado;
-      derecho -- {1..*} CCA_Derecho;
-    END cca_derecho_interesado;
-
     ASSOCIATION cca_predio_derecho =
       derecho -- {0..*} CCA_Derecho;
       predio -- {1} CCA_Predio;
@@ -3046,6 +3037,11 @@ VERSION "2020-07-21"  =
       construccion -- {1} CCA_Construccion;
       unidad_construccion -- {0..*} CCA_UnidadConstruccion;
     END cca_construccion_unidadconstruccion;
+
+    ASSOCIATION cca_derecho_interesado =
+      interesado -- {0..1} CCA_Interesado;
+      derecho -- {1..*} CCA_Derecho;
+    END cca_derecho_interesado;
 
     ASSOCIATION cca_fuenteadministrativa_derecho =
       derecho -- {0..*} CCA_Derecho;
