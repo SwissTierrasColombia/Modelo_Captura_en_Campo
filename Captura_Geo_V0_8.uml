@@ -998,7 +998,7 @@
 <Feature>394</Feature>
 <Feature>395</Feature>
 </ch.ehi.interlis.modeltopicclass.ClassDef>
-<ch.ehi.interlis.attributes.AttributeDef TID="375">
+<ch.ehi.interlis.attributes.AttributeDef TID="374">
 <Name>396</Name>
 <Abstract>false</Abstract>
 <Owner>341</Owner>
@@ -1106,12 +1106,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>421</Background>
 <Foreground>422</Foreground>
-<Height>676</Height>
-<Width>435</Width>
+<Height>720</Height>
+<Width>405</Width>
 <Diagram>423</Diagram>
 <Documentation>424</Documentation>
-<East>1082</East>
-<South>566</South>
+<East>1075</East>
+<South>577</South>
 <Subject>341</Subject>
 <PresentationEdge>425</PresentationEdge>
 <PresentationEdge>426</PresentationEdge>
@@ -1191,12 +1191,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>447</Background>
 <Foreground>448</Foreground>
-<Height>61</Height>
-<Width>222</Width>
+<Height>64</Height>
+<Width>196</Width>
 <Diagram>423</Diagram>
 <Documentation>449</Documentation>
-<East>217</East>
-<South>973</South>
+<East>283</East>
+<South>976</South>
 <Subject>307</Subject>
 <PresentationEdge>450</PresentationEdge>
 </ch.ehi.umleditor.umlpresentation.Class>
@@ -1437,7 +1437,7 @@
 <Visibility>0</Visibility>
 <Specification>false</Specification>
 </ch.ehi.uml1_4.foundation.core.ElementOwnership>
-<ch.ehi.interlis.attributes.AttributeDef TID="372">
+<ch.ehi.interlis.attributes.AttributeDef TID="377">
 <Name>509</Name>
 <Abstract>false</Abstract>
 <Owner>341</Owner>
@@ -1748,8 +1748,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="429">
 <Association>582</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1067.0</MultiplicityAngle>
-<MultiplicityRadius>1002.0</MultiplicityRadius>
+<MultiplicityAngle>1060.0</MultiplicityAngle>
+<MultiplicityRadius>1013.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -1980,12 +1980,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>640</Background>
 <Foreground>641</Foreground>
-<Height>46</Height>
-<Width>174</Width>
+<Height>48</Height>
+<Width>172</Width>
 <Diagram>423</Diagram>
 <Documentation>642</Documentation>
-<East>733</East>
-<South>585</South>
+<East>842</East>
+<South>608</South>
 <Subject>330</Subject>
 <PresentationEdge>643</PresentationEdge>
 </ch.ehi.umleditor.umlpresentation.Class>
@@ -2099,8 +2099,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="643">
 <Association>669</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>841.0</MultiplicityAngle>
-<MultiplicityRadius>635.0</MultiplicityRadius>
+<MultiplicityAngle>950.0</MultiplicityAngle>
+<MultiplicityRadius>658.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -2114,10 +2114,10 @@
 </ch.ehi.umleditor.umlpresentation.PresentationRole>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="673">
 <Association>669</Association>
-<East>1005</East>
+<East>1001</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>781</South>
+<South>789</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -2266,7 +2266,7 @@
 </ch.ehi.uml1_4.implementation.UmlMultiplicityRange>
 <ch.ehi.interlis.attributes.DomainAttribute TID="399">
 <Direct>707</Direct>
-<AttributeDef>375</AttributeDef>
+<AttributeDef>374</AttributeDef>
 </ch.ehi.interlis.attributes.DomainAttribute>
 <ch.ehi.uml1_4.implementation.UmlMultiplicity TID="511">
 <Range>708</Range>
@@ -2762,8 +2762,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="427">
 <Association>840</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1057.0</MultiplicityAngle>
-<MultiplicityRadius>879.0</MultiplicityRadius>
+<MultiplicityAngle>1053.0</MultiplicityAngle>
+<MultiplicityRadius>914.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -2937,8 +2937,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="425">
 <Association>890</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1523.0</MultiplicityAngle>
-<MultiplicityRadius>903.0</MultiplicityRadius>
+<MultiplicityAngle>1487.0</MultiplicityAngle>
+<MultiplicityRadius>917.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -2996,10 +2996,10 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="893">
 <Association>890</Association>
-<East>1580</East>
+<East>1570</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>902</South>
+<South>937</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -3207,10 +3207,10 @@
 </ch.ehi.interlis.associations.AssociationDef>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="962">
 <Association>961</Association>
-<East>511</East>
+<East>543</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>958</South>
+<South>977</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -3842,7 +3842,7 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="1124">
 <Association>1119</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>747.0</MultiplicityAngle>
+<MultiplicityAngle>750.0</MultiplicityAngle>
 <MultiplicityRadius>1331.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
@@ -3859,7 +3859,7 @@
 <East>774</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>1288</South>
+<South>1296</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -4306,11 +4306,11 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1237</Background>
 <Foreground>1238</Foreground>
-<Height>391</Height>
-<Width>323</Width>
+<Height>336</Height>
+<Width>311</Width>
 <Diagram>423</Diagram>
 <Documentation>1239</Documentation>
-<East>613</East>
+<East>619</East>
 <South>1351</South>
 <Subject>1240</Subject>
 <PresentationEdge>1124</PresentationEdge>
@@ -4584,12 +4584,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1320</Background>
 <Foreground>1321</Foreground>
-<Height>91</Height>
-<Width>288</Width>
+<Height>96</Height>
+<Width>274</Width>
 <Diagram>423</Diagram>
 <Documentation>1322</Documentation>
-<East>631</East>
-<South>1134</South>
+<East>638</East>
+<South>1145</South>
 <Subject>1224</Subject>
 <PresentationEdge>1323</PresentationEdge>
 <PresentationEdge>997</PresentationEdge>
@@ -4598,8 +4598,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="1323">
 <Association>1324</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>605.0</MultiplicityAngle>
-<MultiplicityRadius>1181.0</MultiplicityRadius>
+<MultiplicityAngle>616.0</MultiplicityAngle>
+<MultiplicityRadius>1198.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -4614,10 +4614,10 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="1327">
 <Association>1324</Association>
-<East>517</East>
+<East>557</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>1178</South>
+<South>1193</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -4647,8 +4647,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="1330">
 <Association>1324</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>408.0</MultiplicityAngle>
-<MultiplicityRadius>1161.0</MultiplicityRadius>
+<MultiplicityAngle>480.0</MultiplicityAngle>
+<MultiplicityRadius>1173.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -4687,12 +4687,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1338</Background>
 <Foreground>1339</Foreground>
-<Height>166</Height>
-<Width>339</Width>
+<Height>176</Height>
+<Width>317</Width>
 <Diagram>423</Diagram>
 <Documentation>1340</Documentation>
-<East>583</East>
-<South>818</South>
+<East>607</East>
+<South>848</South>
 <Subject>966</Subject>
 <PresentationEdge>964</PresentationEdge>
 <PresentationEdge>1341</PresentationEdge>
@@ -4706,8 +4706,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="1341">
 <Association>1094</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>555.0</MultiplicityAngle>
-<MultiplicityRadius>846.0</MultiplicityRadius>
+<MultiplicityAngle>579.0</MultiplicityAngle>
+<MultiplicityRadius>876.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -4990,7 +4990,7 @@
 <ch.ehi.basics.types.NlsString TID="936">
 <Entry TID="1419" language="es" translation="&#193;rea total construida en la unidad de construcci&#243;n."/>
 </ch.ehi.basics.types.NlsString>
-<ch.ehi.interlis.attributes.AttributeDef TID="373">
+<ch.ehi.interlis.attributes.AttributeDef TID="376">
 <Name>1420</Name>
 <Abstract>false</Abstract>
 <Owner>341</Owner>
@@ -5077,10 +5077,10 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="1095">
 <Association>1094</Association>
-<East>498</East>
+<East>533</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>816</South>
+<South>850</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -5097,8 +5097,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="1443">
 <Association>1094</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>437.0</MultiplicityAngle>
-<MultiplicityRadius>777.0</MultiplicityRadius>
+<MultiplicityAngle>502.0</MultiplicityAngle>
+<MultiplicityRadius>809.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -5212,8 +5212,8 @@
 <Width>106</Width>
 <Diagram>423</Diagram>
 <Documentation>1466</Documentation>
-<East>944</East>
-<South>2244</South>
+<East>367</East>
+<South>1956</South>
 <Subject>1375</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.basics.types.NlsString TID="1466">
@@ -5426,10 +5426,10 @@
 </ch.ehi.interlis.attributes.DomainAttribute>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="585">
 <Association>582</Association>
-<East>971</East>
+<East>972</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>1076</South>
+<South>1092</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -5622,12 +5622,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1545</Background>
 <Foreground>1546</Foreground>
-<Height>196</Height>
-<Width>309</Width>
+<Height>256</Height>
+<Width>297</Width>
 <Diagram>423</Diagram>
 <Documentation>1547</Documentation>
-<East>1643</East>
-<South>804</South>
+<East>1660</East>
+<South>809</South>
 <Subject>845</Subject>
 <PresentationEdge>905</PresentationEdge>
 <PresentationEdge>1548</PresentationEdge>
@@ -5635,8 +5635,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="1548">
 <Association>1549</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1956.0</MultiplicityAngle>
-<MultiplicityRadius>905.0</MultiplicityRadius>
+<MultiplicityAngle>1963.0</MultiplicityAngle>
+<MultiplicityRadius>914.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -5654,10 +5654,10 @@
 </ch.ehi.umleditor.umlpresentation.Color>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="1552">
 <Association>1549</Association>
-<East>2032</East>
+<East>2037</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>908</South>
+<South>935</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -5980,7 +5980,7 @@
 <Visibility>0</Visibility>
 <Specification>false</Specification>
 </ch.ehi.uml1_4.foundation.core.ElementOwnership>
-<ch.ehi.interlis.attributes.AttributeDef TID="374">
+<ch.ehi.interlis.attributes.AttributeDef TID="375">
 <Name>1624</Name>
 <Abstract>false</Abstract>
 <Owner>341</Owner>
@@ -6404,12 +6404,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1758</Background>
 <Foreground>1759</Foreground>
-<Height>76</Height>
-<Width>181</Width>
+<Height>80</Height>
+<Width>184</Width>
 <Diagram>423</Diagram>
 <Documentation>1760</Documentation>
-<East>1567</East>
-<South>1704</South>
+<East>1992</East>
+<South>2012</South>
 <Subject>1761</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Class TID="1706">
@@ -6421,12 +6421,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1762</Background>
 <Foreground>1763</Foreground>
-<Height>136</Height>
-<Width>255</Width>
+<Height>144</Height>
+<Width>226</Width>
 <Diagram>423</Diagram>
 <Documentation>1764</Documentation>
-<East>1174</East>
-<South>327</South>
+<East>1178</East>
+<South>332</South>
 <Subject>1610</Subject>
 <PresentationEdge>1589</PresentationEdge>
 </ch.ehi.umleditor.umlpresentation.Class>
@@ -6439,12 +6439,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1765</Background>
 <Foreground>1766</Foreground>
-<Height>76</Height>
-<Width>128</Width>
+<Height>80</Height>
+<Width>106</Width>
 <Diagram>423</Diagram>
 <Documentation>1767</Documentation>
-<East>1244</East>
-<South>1707</South>
+<East>1242</East>
+<South>1711</South>
 <Subject>1768</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Class TID="1730">
@@ -6456,12 +6456,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1769</Background>
 <Foreground>1770</Foreground>
-<Height>1651</Height>
-<Width>328</Width>
+<Height>1760</Height>
+<Width>304</Width>
 <Diagram>423</Diagram>
 <Documentation>1771</Documentation>
-<East>1936</East>
-<South>1586</South>
+<East>2903</East>
+<South>1714</South>
 <Subject>1772</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="1769">
@@ -6507,8 +6507,8 @@
 <Width>179</Width>
 <Diagram>423</Diagram>
 <Documentation>1778</Documentation>
-<East>1311</East>
-<South>2491</South>
+<East>1541</East>
+<South>1711</South>
 <Subject>1409</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Class TID="1750">
@@ -6520,12 +6520,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1779</Background>
 <Foreground>1780</Foreground>
-<Height>76</Height>
-<Width>146</Width>
+<Height>80</Height>
+<Width>137</Width>
 <Diagram>423</Diagram>
 <Documentation>1781</Documentation>
-<East>1585</East>
-<South>1940</South>
+<East>1918</East>
+<South>1854</South>
 <Subject>1782</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Class TID="1754">
@@ -6560,12 +6560,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1786</Background>
 <Foreground>1787</Foreground>
-<Height>226</Height>
-<Width>165</Width>
+<Height>240</Height>
+<Width>156</Width>
 <Diagram>423</Diagram>
 <Documentation>1788</Documentation>
-<East>420</East>
-<South>1706</South>
+<East>365</East>
+<South>1707</South>
 <Subject>1789</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="1786">
@@ -6582,12 +6582,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1790</Background>
 <Foreground>1791</Foreground>
-<Height>106</Height>
-<Width>137</Width>
+<Height>112</Height>
+<Width>145</Width>
 <Diagram>423</Diagram>
 <Documentation>1792</Documentation>
-<East>2276</East>
-<South>2659</South>
+<East>2194</East>
+<South>2307</South>
 <Subject>1793</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="1793">
@@ -6617,12 +6617,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1801</Background>
 <Foreground>1802</Foreground>
-<Height>466</Height>
-<Width>128</Width>
+<Height>496</Height>
+<Width>115</Width>
 <Diagram>423</Diagram>
 <Documentation>1803</Documentation>
-<East>2272</East>
-<South>1862</South>
+<East>2420</East>
+<South>1713</South>
 <Subject>1804</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Generalization TID="1712">
@@ -6642,12 +6642,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1807</Background>
 <Foreground>1808</Foreground>
-<Height>136</Height>
-<Width>246</Width>
+<Height>144</Height>
+<Width>232</Width>
 <Diagram>423</Diagram>
 <Documentation>1809</Documentation>
-<East>2411</East>
-<South>2106</South>
+<East>1735</East>
+<South>2149</South>
 <Subject>1810</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="1807">
@@ -6668,12 +6668,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1812</Background>
 <Foreground>1813</Foreground>
-<Height>121</Height>
-<Width>128</Width>
+<Height>128</Height>
+<Width>117</Width>
 <Diagram>423</Diagram>
 <Documentation>1814</Documentation>
-<East>2482</East>
-<South>2655</South>
+<East>2107</East>
+<South>2152</South>
 <Subject>1815</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="1815">
@@ -6735,12 +6735,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1838</Background>
 <Foreground>1839</Foreground>
-<Height>91</Height>
-<Width>140</Width>
+<Height>96</Height>
+<Width>128</Width>
 <Diagram>423</Diagram>
 <Documentation>1840</Documentation>
-<East>17</East>
-<South>2019</South>
+<East>863</East>
+<South>2205</South>
 <Subject>1841</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="1841">
@@ -6790,12 +6790,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1851</Background>
 <Foreground>1852</Foreground>
-<Height>76</Height>
-<Width>128</Width>
+<Height>80</Height>
+<Width>106</Width>
 <Diagram>423</Diagram>
 <Documentation>1853</Documentation>
-<East>419</East>
-<South>1944</South>
+<East>490</East>
+<South>1958</South>
 <Subject>1854</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="1854">
@@ -6873,12 +6873,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1876</Background>
 <Foreground>1877</Foreground>
-<Height>136</Height>
-<Width>355</Width>
+<Height>144</Height>
+<Width>332</Width>
 <Diagram>423</Diagram>
 <Documentation>1878</Documentation>
-<East>2296</East>
-<South>1578</South>
+<East>2065</East>
+<South>1854</South>
 <Subject>1879</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.basics.types.NlsString TID="1878">
@@ -6902,12 +6902,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1880</Background>
 <Foreground>1881</Foreground>
-<Height>121</Height>
-<Width>168</Width>
+<Height>128</Height>
+<Width>161</Width>
 <Diagram>423</Diagram>
 <Documentation>1882</Documentation>
-<East>1763</East>
-<South>1809</South>
+<East>2047</East>
+<South>1711</South>
 <Subject>1883</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="1881">
@@ -6929,12 +6929,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1884</Background>
 <Foreground>1885</Foreground>
-<Height>316</Height>
-<Width>384</Width>
+<Height>352</Height>
+<Width>350</Width>
 <Diagram>423</Diagram>
 <Documentation>1886</Documentation>
-<East>2113</East>
-<South>760</South>
+<East>2117</East>
+<South>759</South>
 <Subject>1668</Subject>
 <PresentationEdge>1555</PresentationEdge>
 <PresentationEdge>1887</PresentationEdge>
@@ -6942,8 +6942,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="1887">
 <Association>838</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>2500.0</MultiplicityAngle>
-<MultiplicityRadius>900.0</MultiplicityRadius>
+<MultiplicityAngle>2470.0</MultiplicityAngle>
+<MultiplicityRadius>916.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -6969,8 +6969,8 @@
 <Width>129</Width>
 <Diagram>423</Diagram>
 <Documentation>1892</Documentation>
-<East>1058</East>
-<South>2206</South>
+<East>532</East>
+<South>1797</South>
 <Subject>1893</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.attributes.AttributeDef TID="1811">
@@ -7023,12 +7023,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1901</Background>
 <Foreground>1902</Foreground>
-<Height>121</Height>
-<Width>190</Width>
+<Height>128</Height>
+<Width>174</Width>
 <Diagram>423</Diagram>
 <Documentation>1903</Documentation>
-<East>2414</East>
-<South>1980</South>
+<East>2236</East>
+<South>2153</South>
 <Subject>1904</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.basics.types.NlsString TID="1903">
@@ -7070,12 +7070,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1915</Background>
 <Foreground>1916</Foreground>
-<Height>76</Height>
-<Width>128</Width>
+<Height>80</Height>
+<Width>109</Width>
 <Diagram>423</Diagram>
 <Documentation>1917</Documentation>
-<East>1394</East>
-<South>1795</South>
+<East>1120</East>
+<South>1712</South>
 <Subject>1918</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="1916">
@@ -7124,12 +7124,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1922</Background>
 <Foreground>1923</Foreground>
-<Height>121</Height>
-<Width>251</Width>
+<Height>128</Height>
+<Width>244</Width>
 <Diagram>423</Diagram>
 <Documentation>1924</Documentation>
-<East>616</East>
-<South>2008</South>
+<East>499</East>
+<South>2068</South>
 <Subject>1925</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="1923">
@@ -7208,12 +7208,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1939</Background>
 <Foreground>1940</Foreground>
-<Height>91</Height>
-<Width>240</Width>
+<Height>80</Height>
+<Width>211</Width>
 <Diagram>423</Diagram>
 <Documentation>1941</Documentation>
-<East>1043</East>
-<South>1377</South>
+<East>1064</East>
+<South>1380</South>
 <Subject>1942</Subject>
 <PresentationEdge>1943</PresentationEdge>
 </ch.ehi.umleditor.umlpresentation.Class>
@@ -7235,12 +7235,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>1946</Background>
 <Foreground>1947</Foreground>
-<Height>121</Height>
-<Width>190</Width>
+<Height>128</Height>
+<Width>177</Width>
 <Diagram>423</Diagram>
 <Documentation>1948</Documentation>
-<East>1737</East>
-<South>1941</South>
+<East>2355</East>
+<South>2308</South>
 <Subject>1949</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="1947">
@@ -7450,8 +7450,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="1943">
 <Association>1725</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1151.0</MultiplicityAngle>
-<MultiplicityRadius>1358.0</MultiplicityRadius>
+<MultiplicityAngle>1153.0</MultiplicityAngle>
+<MultiplicityRadius>1359.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -7555,12 +7555,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>2033</Background>
 <Foreground>2034</Foreground>
-<Height>106</Height>
-<Width>159</Width>
+<Height>112</Height>
+<Width>152</Width>
 <Diagram>423</Diagram>
 <Documentation>2035</Documentation>
-<East>2482</East>
-<South>2541</South>
+<East>2026</East>
+<South>2307</South>
 <Subject>2036</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="2033">
@@ -7593,8 +7593,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="1555">
 <Association>1549</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>2086.0</MultiplicityAngle>
-<MultiplicityRadius>901.0</MultiplicityRadius>
+<MultiplicityAngle>2095.0</MultiplicityAngle>
+<MultiplicityRadius>939.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -7731,12 +7731,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>2072</Background>
 <Foreground>2073</Foreground>
-<Height>256</Height>
-<Width>144</Width>
+<Height>272</Height>
+<Width>131</Width>
 <Diagram>423</Diagram>
 <Documentation>2074</Documentation>
-<East>733</East>
-<South>1708</South>
+<East>536</East>
+<South>2207</South>
 <Subject>2075</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="2075">
@@ -7817,8 +7817,8 @@
 <Width>204</Width>
 <Diagram>423</Diagram>
 <Documentation>2096</Documentation>
-<East>1242</East>
-<South>2010</South>
+<East>1274</East>
+<South>2004</South>
 <Subject>2097</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="2097">
@@ -7937,12 +7937,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>2123</Background>
 <Foreground>2124</Foreground>
-<Height>151</Height>
-<Width>298</Width>
+<Height>160</Height>
+<Width>276</Width>
 <Diagram>423</Diagram>
 <Documentation>2125</Documentation>
-<East>2275</East>
-<South>2375</South>
+<East>1736</East>
+<South>2307</South>
 <Subject>2126</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.basics.types.NlsString TID="2125">
@@ -8073,8 +8073,8 @@
 <Width>169</Width>
 <Diagram>423</Diagram>
 <Documentation>2154</Documentation>
-<East>422</East>
-<South>2144</South>
+<East>682</East>
+<South>2207</South>
 <Subject>1135</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.basics.types.NlsString TID="2154">
@@ -8154,12 +8154,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>2166</Background>
 <Foreground>2167</Foreground>
-<Height>136</Height>
-<Width>149</Width>
+<Height>144</Height>
+<Width>135</Width>
 <Diagram>423</Diagram>
 <Documentation>2168</Documentation>
-<East>19</East>
-<South>1861</South>
+<East>28</East>
+<South>1704</South>
 <Subject>1501</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.basics.types.NlsString TID="2168">
@@ -9994,12 +9994,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>2709</Background>
 <Foreground>2710</Foreground>
-<Height>106</Height>
-<Width>170</Width>
+<Height>112</Height>
+<Width>157</Width>
 <Diagram>423</Diagram>
 <Documentation>2711</Documentation>
-<East>214</East>
-<South>1805</South>
+<East>194</East>
+<South>1706</South>
 <Subject>2712</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="2710">
@@ -10334,12 +10334,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>2803</Background>
 <Foreground>2804</Foreground>
-<Height>121</Height>
-<Width>273</Width>
+<Height>128</Height>
+<Width>242</Width>
 <Diagram>423</Diagram>
 <Documentation>2805</Documentation>
-<East>131</East>
-<South>1118</South>
+<East>235</East>
+<South>1130</South>
 <Subject>535</Subject>
 <PresentationEdge>1330</PresentationEdge>
 </ch.ehi.umleditor.umlpresentation.Class>
@@ -10719,7 +10719,7 @@
 <ch.ehi.basics.types.NlsString TID="1518">
 <Entry TID="2894" language="es" translation="Destinaci&#243;n econ&#243;mica"/>
 </ch.ehi.basics.types.NlsString>
-<ch.ehi.interlis.attributes.AttributeDef TID="376">
+<ch.ehi.interlis.attributes.AttributeDef TID="373">
 <Name>2895</Name>
 <Abstract>false</Abstract>
 <Owner>341</Owner>
@@ -11762,12 +11762,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>3131</Background>
 <Foreground>3132</Foreground>
-<Height>121</Height>
-<Width>186</Width>
+<Height>128</Height>
+<Width>172</Width>
 <Diagram>423</Diagram>
 <Documentation>3133</Documentation>
-<East>1573</East>
-<South>1809</South>
+<East>1734</East>
+<South>1849</South>
 <Subject>2772</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="3131">
@@ -11860,7 +11860,7 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.interlis.attributes.DomainAttribute TID="512">
 <Direct>3153</Direct>
-<AttributeDef>372</AttributeDef>
+<AttributeDef>377</AttributeDef>
 </ch.ehi.interlis.attributes.DomainAttribute>
 <ch.ehi.basics.types.NlsString TID="749">
 </ch.ehi.basics.types.NlsString>
@@ -12001,8 +12001,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="430">
 <Association>1748</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1420.0</MultiplicityAngle>
-<MultiplicityRadius>1246.0</MultiplicityRadius>
+<MultiplicityAngle>1381.0</MultiplicityAngle>
+<MultiplicityRadius>1300.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -12020,10 +12020,10 @@
 </ch.ehi.umleditor.umlpresentation.Color>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="3185">
 <Association>1748</Association>
-<East>1435</East>
+<East>1414</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>1311</South>
+<South>1337</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -12040,8 +12040,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="3187">
 <Association>1748</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1428.0</MultiplicityAngle>
-<MultiplicityRadius>1363.0</MultiplicityRadius>
+<MultiplicityAngle>1429.0</MultiplicityAngle>
+<MultiplicityRadius>1359.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -12079,10 +12079,10 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="843">
 <Association>840</Association>
-<East>1002</East>
+<East>999</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>901</South>
+<South>936</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -12508,12 +12508,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>3304</Background>
 <Foreground>3305</Foreground>
-<Height>166</Height>
-<Width>128</Width>
+<Height>176</Height>
+<Width>114</Width>
 <Diagram>423</Diagram>
 <Documentation>3306</Documentation>
-<East>600</East>
-<South>1709</South>
+<East>371</East>
+<South>2048</South>
 <Subject>3307</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="3305">
@@ -12817,12 +12817,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>3362</Background>
 <Foreground>3363</Foreground>
-<Height>91</Height>
-<Width>128</Width>
+<Height>96</Height>
+<Width>113</Width>
 <Diagram>423</Diagram>
 <Documentation>3364</Documentation>
-<East>1786</East>
-<South>1703</South>
+<East>2355</East>
+<South>2447</South>
 <Subject>3365</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="3365">
@@ -13008,12 +13008,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>3413</Background>
 <Foreground>3414</Foreground>
-<Height>106</Height>
-<Width>128</Width>
+<Height>112</Height>
+<Width>109</Width>
 <Diagram>423</Diagram>
 <Documentation>3415</Documentation>
-<East>2410</East>
-<South>1862</South>
+<East>1929</East>
+<South>1711</South>
 <Subject>3416</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="3416">
@@ -13294,8 +13294,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="964">
 <Association>961</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>555.0</MultiplicityAngle>
-<MultiplicityRadius>923.0</MultiplicityRadius>
+<MultiplicityAngle>584.0</MultiplicityAngle>
+<MultiplicityRadius>947.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -14232,7 +14232,7 @@
 <Upper>1</Upper>
 <Multiplicity>1276</Multiplicity>
 </ch.ehi.uml1_4.implementation.UmlMultiplicityRange>
-<ch.ehi.interlis.attributes.AttributeDef TID="377">
+<ch.ehi.interlis.attributes.AttributeDef TID="372">
 <Name>3720</Name>
 <Abstract>false</Abstract>
 <Owner>341</Owner>
@@ -15190,10 +15190,10 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="2010">
 <Association>1725</Association>
-<East>1192</East>
+<East>1186</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>1309</South>
+<South>1338</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -16301,12 +16301,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>4304</Background>
 <Foreground>4305</Foreground>
-<Height>76</Height>
-<Width>128</Width>
+<Height>80</Height>
+<Width>106</Width>
 <Diagram>423</Diagram>
 <Documentation>4306</Documentation>
-<East>215</East>
-<South>1930</South>
+<East>231</East>
+<South>1954</South>
 <Subject>4307</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="4304">
@@ -16448,12 +16448,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>4347</Background>
 <Foreground>4348</Foreground>
-<Height>181</Height>
-<Width>128</Width>
+<Height>192</Height>
+<Width>114</Width>
 <Diagram>423</Diagram>
 <Documentation>4349</Documentation>
-<East>1244</East>
-<South>1795</South>
+<East>1122</East>
+<South>1803</South>
 <Subject>4350</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="4347">
@@ -21618,7 +21618,7 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.interlis.attributes.DomainAttribute TID="2898">
 <Direct>3212</Direct>
-<AttributeDef>376</AttributeDef>
+<AttributeDef>373</AttributeDef>
 </ch.ehi.interlis.attributes.DomainAttribute>
 <ch.ehi.basics.types.NlsString TID="4197">
 <Entry TID="5503" language="es" translation="interesado"/>
@@ -22593,12 +22593,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>5734</Background>
 <Foreground>5735</Foreground>
-<Height>106</Height>
-<Width>177</Width>
+<Height>112</Height>
+<Width>179</Width>
 <Diagram>423</Diagram>
 <Documentation>5736</Documentation>
-<East>2275</East>
-<South>2539</South>
+<East>2194</East>
+<South>2014</South>
 <Subject>5737</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="5737">
@@ -22760,12 +22760,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>5781</Background>
 <Foreground>5782</Foreground>
-<Height>121</Height>
-<Width>142</Width>
+<Height>128</Height>
+<Width>149</Width>
 <Diagram>423</Diagram>
 <Documentation>5783</Documentation>
-<East>630</East>
-<South>2141</South>
+<East>376</East>
+<South>2237</South>
 <Subject>1657</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="5781">
@@ -23464,8 +23464,8 @@
 <Width>135</Width>
 <Diagram>423</Diagram>
 <Documentation>5949</Documentation>
-<East>1245</East>
-<South>2118</South>
+<East>1125</East>
+<South>2004</South>
 <Subject>2827</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="5947">
@@ -24432,12 +24432,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>6160</Background>
 <Foreground>6161</Foreground>
-<Height>121</Height>
-<Width>128</Width>
+<Height>128</Height>
+<Width>112</Width>
 <Diagram>423</Diagram>
 <Documentation>6162</Documentation>
-<East>2545</East>
-<South>1852</South>
+<East>1981</East>
+<South>2150</South>
 <Subject>6163</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="6160">
@@ -24818,12 +24818,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>6268</Background>
 <Foreground>6269</Foreground>
-<Height>76</Height>
-<Width>128</Width>
+<Height>80</Height>
+<Width>115</Width>
 <Diagram>423</Diagram>
 <Documentation>6270</Documentation>
-<East>1393</East>
-<South>1705</South>
+<East>1247</East>
+<South>1804</South>
 <Subject>6271</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="6271">
@@ -25421,12 +25421,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>6419</Background>
 <Foreground>6420</Foreground>
-<Height>76</Height>
-<Width>238</Width>
+<Height>80</Height>
+<Width>209</Width>
 <Diagram>423</Diagram>
 <Documentation>6421</Documentation>
-<East>1353</East>
-<South>1381</South>
+<East>1338</East>
+<South>1378</South>
 <Subject>319</Subject>
 <PresentationEdge>3187</PresentationEdge>
 </ch.ehi.umleditor.umlpresentation.Class>
@@ -25539,12 +25539,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>6442</Background>
 <Foreground>6443</Foreground>
-<Height>91</Height>
-<Width>158</Width>
+<Height>96</Height>
+<Width>148</Width>
 <Diagram>423</Diagram>
 <Documentation>6444</Documentation>
-<East>419</East>
-<South>2029</South>
+<East>614</East>
+<South>1957</South>
 <Subject>6445</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="6442">
@@ -26337,8 +26337,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="426">
 <Association>1725</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1214.0</MultiplicityAngle>
-<MultiplicityRadius>1246.0</MultiplicityRadius>
+<MultiplicityAngle>1201.0</MultiplicityAngle>
+<MultiplicityRadius>1302.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -27720,8 +27720,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="997">
 <Association>582</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>899.0</MultiplicityAngle>
-<MultiplicityRadius>1114.0</MultiplicityRadius>
+<MultiplicityAngle>917.0</MultiplicityAngle>
+<MultiplicityRadius>1129.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -28459,7 +28459,7 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.interlis.attributes.DomainAttribute TID="1423">
 <Direct>3210</Direct>
-<AttributeDef>373</AttributeDef>
+<AttributeDef>376</AttributeDef>
 </ch.ehi.interlis.attributes.DomainAttribute>
 <ch.ehi.interlis.attributes.DomainAttribute TID="1602">
 <Direct>7094</Direct>
@@ -28581,8 +28581,8 @@
 <Width>160</Width>
 <Diagram>423</Diagram>
 <Documentation>7116</Documentation>
-<East>1395</East>
-<South>1891</South>
+<East>1368</East>
+<South>1712</South>
 <Subject>2140</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.basics.types.NlsString TID="7116">
@@ -29143,12 +29143,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>7232</Background>
 <Foreground>7233</Foreground>
-<Height>226</Height>
-<Width>291</Width>
+<Height>240</Height>
+<Width>276</Width>
 <Diagram>423</Diagram>
 <Documentation>7234</Documentation>
-<East>1643</East>
-<South>552</South>
+<East>1661</East>
+<South>532</South>
 <Subject>1451</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="7233">
@@ -30324,8 +30324,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="7511">
 <Association>838</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>2617.0</MultiplicityAngle>
-<MultiplicityRadius>906.0</MultiplicityRadius>
+<MultiplicityAngle>2626.0</MultiplicityAngle>
+<MultiplicityRadius>941.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -30560,8 +30560,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="1589">
 <Association>1461</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1274.0</MultiplicityAngle>
-<MultiplicityRadius>468.0</MultiplicityRadius>
+<MultiplicityAngle>1264.0</MultiplicityAngle>
+<MultiplicityRadius>482.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -31290,7 +31290,7 @@
 <ch.ehi.basics.types.NlsString TID="7799">
 <Entry TID="7805" language="es" translation="CCA_OfertasMercadoInmobiliario"/>
 </ch.ehi.basics.types.NlsString>
-<ch.ehi.interlis.attributes.AttributeDef TID="7803">
+<ch.ehi.interlis.attributes.AttributeDef TID="7804">
 <Name>7806</Name>
 <Abstract>false</Abstract>
 <Owner>1610</Owner>
@@ -31311,7 +31311,7 @@
 <DefLangName>Nombre_Oferente</DefLangName>
 <DefLangMetaAttrb>Nombre del oferente</DefLangMetaAttrb>
 </ch.ehi.interlis.attributes.AttributeDef>
-<ch.ehi.interlis.attributes.AttributeDef TID="7804">
+<ch.ehi.interlis.attributes.AttributeDef TID="7803">
 <Name>7811</Name>
 <Abstract>false</Abstract>
 <Owner>1610</Owner>
@@ -32975,12 +32975,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>8301</Background>
 <Foreground>8302</Foreground>
-<Height>121</Height>
-<Width>128</Width>
+<Height>128</Height>
+<Width>111</Width>
 <Diagram>423</Diagram>
 <Documentation>8303</Documentation>
-<East>2516</East>
-<South>1726</South>
+<East>2220</East>
+<South>1711</South>
 <Subject>8304</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="8304">
@@ -33298,12 +33298,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>8366</Background>
 <Foreground>8367</Foreground>
-<Height>76</Height>
-<Width>128</Width>
+<Height>80</Height>
+<Width>123</Width>
 <Diagram>423</Diagram>
 <Documentation>8368</Documentation>
-<East>218</East>
-<South>1708</South>
+<East>228</East>
+<South>1865</South>
 <Subject>8018</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="8366">
@@ -33545,7 +33545,7 @@
 </ch.ehi.interlis.domainsandconstants.basetypes.IliDim>
 <ch.ehi.interlis.attributes.DomainAttribute TID="7809">
 <Direct>8409</Direct>
-<AttributeDef>7803</AttributeDef>
+<AttributeDef>7804</AttributeDef>
 </ch.ehi.interlis.attributes.DomainAttribute>
 <ch.ehi.umleditor.umlpresentation.Association TID="3604">
 <LinkPresentation>3606</LinkPresentation>
@@ -33798,12 +33798,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>8465</Background>
 <Foreground>8466</Foreground>
-<Height>121</Height>
-<Width>262</Width>
+<Height>128</Height>
+<Width>246</Width>
 <Diagram>423</Diagram>
 <Documentation>8467</Documentation>
-<East>2416</East>
-<South>2248</South>
+<East>1732</East>
+<South>2011</South>
 <Subject>8468</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="8466">
@@ -34247,12 +34247,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>8581</Background>
 <Foreground>8582</Foreground>
-<Height>106</Height>
-<Width>128</Width>
+<Height>112</Height>
+<Width>111</Width>
 <Diagram>423</Diagram>
 <Documentation>8583</Documentation>
-<East>601</East>
-<South>1882</South>
+<East>691</East>
+<South>1709</South>
 <Subject>8584</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.interlis.domainsandconstants.DomainDef TID="8584">
@@ -34568,7 +34568,7 @@
 <Association>1119</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
 <MultiplicityAngle>779.0</MultiplicityAngle>
-<MultiplicityRadius>1228.0</MultiplicityRadius>
+<MultiplicityRadius>1244.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -34785,8 +34785,8 @@
 <Width>150</Width>
 <Diagram>423</Diagram>
 <Documentation>8708</Documentation>
-<East>739</East>
-<South>2232</South>
+<East>531</East>
+<South>1708</South>
 <Subject>1670</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="8707">
@@ -34818,10 +34818,10 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="1462">
 <Association>1461</Association>
-<East>1300</East>
+<East>1287</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>514</South>
+<South>526</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -36211,7 +36211,7 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.interlis.attributes.DomainAttribute TID="3723">
 <Direct>3220</Direct>
-<AttributeDef>377</AttributeDef>
+<AttributeDef>372</AttributeDef>
 </ch.ehi.interlis.attributes.DomainAttribute>
 <ch.ehi.basics.types.NlsString TID="6469">
 <Entry TID="9000" language="es" translation="UmlUsage267"/>
@@ -36806,7 +36806,7 @@
 <Association>840</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
 <MultiplicityAngle>927.0</MultiplicityAngle>
-<MultiplicityRadius>904.0</MultiplicityRadius>
+<MultiplicityRadius>938.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -38520,7 +38520,7 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.interlis.attributes.DomainAttribute TID="1627">
 <Direct>3206</Direct>
-<AttributeDef>374</AttributeDef>
+<AttributeDef>375</AttributeDef>
 </ch.ehi.interlis.attributes.DomainAttribute>
 <ch.ehi.basics.types.NlsString TID="8082">
 <Entry TID="9561" language="es" translation="Teatro_Cinemas"/>
@@ -38653,8 +38653,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="428">
 <Association>669</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1068.0</MultiplicityAngle>
-<MultiplicityRadius>742.0</MultiplicityRadius>
+<MultiplicityAngle>1061.0</MultiplicityAngle>
+<MultiplicityRadius>753.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -38779,12 +38779,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>9614</Background>
 <Foreground>9615</Foreground>
-<Height>406</Height>
-<Width>363</Width>
+<Height>432</Height>
+<Width>340</Width>
 <Diagram>423</Diagram>
 <Documentation>9616</Documentation>
-<East>2643</East>
-<South>700</South>
+<East>2652</East>
+<South>719</South>
 <Subject>698</Subject>
 <PresentationEdge>7511</PresentationEdge>
 </ch.ehi.umleditor.umlpresentation.Class>
@@ -38932,12 +38932,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>9656</Background>
 <Foreground>9657</Foreground>
-<Height>136</Height>
-<Width>189</Width>
+<Height>144</Height>
+<Width>187</Width>
 <Diagram>423</Diagram>
 <Documentation>9658</Documentation>
-<East>6</East>
-<South>1707</South>
+<East>31</East>
+<South>1866</South>
 <Subject>1003</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="9656">
@@ -39751,12 +39751,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>9862</Background>
 <Foreground>9863</Foreground>
-<Height>1261</Height>
-<Width>363</Width>
+<Height>1344</Height>
+<Width>338</Width>
 <Diagram>423</Diagram>
 <Documentation>9864</Documentation>
-<East>2685</East>
-<South>1579</South>
+<East>2551</East>
+<South>1713</South>
 <Subject>9865</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="9862">
@@ -42454,12 +42454,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>10718</Background>
 <Foreground>10719</Foreground>
-<Height>436</Height>
-<Width>331</Width>
+<Height>464</Height>
+<Width>294</Width>
 <Diagram>423</Diagram>
 <Documentation>10720</Documentation>
-<East>886</East>
-<South>1706</South>
+<East>811</East>
+<South>1710</South>
 <Subject>10721</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="10718">
@@ -43540,12 +43540,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>10965</Background>
 <Foreground>10966</Foreground>
-<Height>61</Height>
-<Width>222</Width>
+<Height>64</Height>
+<Width>196</Width>
 <Diagram>423</Diagram>
 <Documentation>10967</Documentation>
-<East>211</East>
-<South>727</South>
+<East>276</East>
+<South>759</South>
 <Subject>8810</Subject>
 <PresentationEdge>1443</PresentationEdge>
 </ch.ehi.umleditor.umlpresentation.Class>
@@ -46057,7 +46057,7 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.interlis.attributes.DomainAttribute TID="7814">
 <Direct>11858</Direct>
-<AttributeDef>7804</AttributeDef>
+<AttributeDef>7803</AttributeDef>
 </ch.ehi.interlis.attributes.DomainAttribute>
 <ch.ehi.interlis.domainsandconstants.basetypes.Text TID="11858">
 <Multiline>false</Multiline>
@@ -46454,8 +46454,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="450">
 <Association>961</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>447.0</MultiplicityAngle>
-<MultiplicityRadius>976.0</MultiplicityRadius>
+<MultiplicityAngle>480.0</MultiplicityAngle>
+<MultiplicityRadius>993.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -49691,8 +49691,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="431">
 <Association>1461</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1306.0</MultiplicityAngle>
-<MultiplicityRadius>547.0</MultiplicityRadius>
+<MultiplicityAngle>1284.0</MultiplicityAngle>
+<MultiplicityRadius>559.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -50666,10 +50666,10 @@
 </ch.ehi.basics.types.NlsString>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="839">
 <Association>838</Association>
-<East>2570</East>
+<East>2559</East>
 <ClassRadius>0.0</ClassRadius>
 <ClassAngle>0.0</ClassAngle>
-<South>910</South>
+<South>935</South>
 <ShowNamePrefix>0</ShowNamePrefix>
 <ShowInheritedAttributes>false</ShowInheritedAttributes>
 <ShowOperationSignatures>false</ShowOperationSignatures>
@@ -53391,8 +53391,8 @@
 <ch.ehi.umleditor.umlpresentation.PresentationRole TID="905">
 <Association>890</Association>
 <MultiplicityVisible>true</MultiplicityVisible>
-<MultiplicityAngle>1615.0</MultiplicityAngle>
-<MultiplicityRadius>878.0</MultiplicityRadius>
+<MultiplicityAngle>1636.0</MultiplicityAngle>
+<MultiplicityRadius>942.0</MultiplicityRadius>
 <NameVisible>false</NameVisible>
 <NameAngle>0.0</NameAngle>
 <NameRadius>0.0</NameRadius>
@@ -56084,12 +56084,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>14434</Background>
 <Foreground>14435</Foreground>
-<Height>121</Height>
-<Width>198</Width>
+<Height>128</Height>
+<Width>187</Width>
 <Diagram>423</Diagram>
 <Documentation>14436</Documentation>
-<East>2306</East>
-<South>1726</South>
+<East>1731</East>
+<South>1711</South>
 <Subject>12225</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="14434">
@@ -56256,12 +56256,12 @@
 <ShowConstraints>0</ShowConstraints>
 <Background>14465</Background>
 <Foreground>14466</Foreground>
-<Height>76</Height>
-<Width>128</Width>
+<Height>80</Height>
+<Width>117</Width>
 <Diagram>423</Diagram>
 <Documentation>14467</Documentation>
-<East>201</East>
-<South>2041</South>
+<East>34</East>
+<South>2048</South>
 <Subject>1159</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.umleditor.umlpresentation.Color TID="14465">
@@ -56303,8 +56303,8 @@
 <Width>106</Width>
 <Diagram>423</Diagram>
 <Documentation>14473</Documentation>
-<East>1397</East>
-<South>2121</South>
+<East>1127</East>
+<South>2109</South>
 <Subject>3778</Subject>
 </ch.ehi.umleditor.umlpresentation.Class>
 <ch.ehi.basics.types.NlsString TID="14473">
