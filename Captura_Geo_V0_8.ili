@@ -2430,10 +2430,10 @@ VERSION "2020-07-21"  =
        */
       !!@ ili2db.dispName = "Tiempo de la oferta en el mercado inmobiliario en meses"
       Tiempo_Oferta_Mercado : 0 .. 1000;
-      !!@ ili2db.dispName = "Nombre del oferente"
-      Nombre_Oferente : MANDATORY TEXT*255;
       !!@ ili2db.dispName = "Número de contacto del oferente"
       Numero_Contacto_Oferente : MANDATORY TEXT*20;
+      !!@ ili2db.dispName = "Nombre del oferente"
+      Nombre_Oferente : MANDATORY TEXT*255;
     END CCA_OfertasMercadoInmobiliario;
 
     /** Clase especializada de BaUnit, que describe la unidad administrativa básica para el caso de Colombia.
@@ -2503,18 +2503,18 @@ VERSION "2020-07-21"  =
       Total_Unidades_Privadas : 0 .. 99999999;
       !!@ ili2db.dispName = "Número de torres"
       Numero_Torres : 0 .. 1000;
-      !!@ ili2db.dispName = "Área total construida común"
-      Area_Total_Construida_Comun : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
-      !!@ ili2db.dispName = "Área total construida privada"
-      Area_Total_Construida_Privada : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
-      !!@ ili2db.dispName = "Área total construida"
-      Area_Total_Construida : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
-      !!@ ili2db.dispName = "Área total de terreno común"
-      Area_Total_Terreno_Comun : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
-      !!@ ili2db.dispName = "Área total de terreno privada"
-      Area_Total_Terreno_Privada : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
       !!@ ili2db.dispName = "Área total de terreno"
       Area_Total_Terreno : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
+      !!@ ili2db.dispName = "Área total de terreno privada"
+      Area_Total_Terreno_Privada : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
+      !!@ ili2db.dispName = "Área total de terreno común"
+      Area_Total_Terreno_Comun : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
+      !!@ ili2db.dispName = "Área total construida"
+      Area_Total_Construida : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
+      !!@ ili2db.dispName = "Área total construida privada"
+      Area_Total_Construida_Privada : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
+      !!@ ili2db.dispName = "Área total construida común"
+      Area_Total_Construida_Comun : 0.00 .. 99999999999999.98 [LADM_COL_V3_0.m2];
       !!@ ili2db.dispName = "Predio Matriz"
       Predio_Matriz : TEXT;
       !!@ ili2db.dispName = "Coeficiente de Copropiedad"
@@ -2563,6 +2563,8 @@ VERSION "2020-07-21"  =
     CLASS CCA_Punto (ABSTRACT) =
       !!@ ili2db.dispName = "Posición interpolación"
       Posicion_Interpolacion : LADM_COL_V3_0.LADM_Nucleo.COL_InterpolacionTipo;
+      !!@ ili2db.dispName = "Tipo de punto"
+      PuntoTipo : LADM_COL_V3_0.LADM_Nucleo.COL_PuntoTipo;
       /** Indica si el método de levantamiento catastral: método directo o indirecto.
        */
       !!@ ili2db.dispName = "Método de producción"
@@ -2850,8 +2852,8 @@ VERSION "2020-07-21"  =
       ID_Punto_Control : MANDATORY TEXT*255;
       /** Indica la clasificación del tipo de punto de acuerdo a sus características.
        */
-      !!@ ili2db.dispName = "Tipo de punto"
-      PuntoTipo : MANDATORY Captura_Geo_V0_8.CCA_PuntoTipo;
+      !!@ ili2db.dispName = "Característica del punto"
+      TipoPunto : MANDATORY Captura_Geo_V0_8.CCA_PuntoTipo;
       /** Si se trata de un punto de control o de apoyo.
        */
       !!@ ili2db.dispName = "Tipo de punto de control"
@@ -2875,8 +2877,8 @@ VERSION "2020-07-21"  =
       ID_Punto_Levantamiento : MANDATORY TEXT*255;
       /** Indica la clasificación del tipo de punto de acuerdo a sus características.
        */
-      !!@ ili2db.dispName = "Tipo de punto"
-      PuntoTipo : MANDATORY Captura_Geo_V0_8.CCA_PuntoTipo;
+      !!@ ili2db.dispName = "Característica del punto"
+      TipoPunto : MANDATORY Captura_Geo_V0_8.CCA_PuntoTipo;
       /** Indica si el tipo de punto corresponde a una construcción o servidumbre de tránsito.
        */
       !!@ ili2db.dispName = "Tipo de punto de levantamiento"
@@ -2906,8 +2908,8 @@ VERSION "2020-07-21"  =
       ID_Punto_Lindero : MANDATORY TEXT*255;
       /** Indica la clasificación del tipo de punto de acuerdo a sus características.
        */
-      !!@ ili2db.dispName = "Tipo de punto"
-      PuntoTipo : Captura_Geo_V0_8.CCA_PuntoTipo;
+      !!@ ili2db.dispName = "Característica del punto"
+      TipoPunto : Captura_Geo_V0_8.CCA_PuntoTipo;
       /** Indica si existe acuerdo o no entre los colindantes en relación al punto lindero que se está midiendo.
        */
       !!@ ili2db.dispName = "Acuerdo"
@@ -3019,8 +3021,8 @@ VERSION "2020-07-21"  =
     END cca_predio_terrenohistorico;
 
     ASSOCIATION cca_predio_usuario =
-      predio -- {0..*} CCA_Predio;
-      usuario -- {0..1} CCA_Usuario;
+      Predio -- {0..*} CCA_Predio;
+      Usuario -- {0..1} CCA_Usuario;
     END cca_predio_usuario;
 
     ASSOCIATION cca_usuario_areaintervencionespecifica =
