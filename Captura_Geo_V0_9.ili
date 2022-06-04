@@ -440,10 +440,6 @@ VERSION "2020-07-21"  =
        */
       !!@ ili2db.dispName = "Industrial"
       Industrial,
-      /** Calificación para predios de uso Institucional.
-       */
-      !!@ ili2db.dispName = "Institucional"
-      Institucional,
       /** Calificación para predios de uso comercial.
        */
       !!@ ili2db.dispName = "Comercial"
@@ -692,7 +688,7 @@ VERSION "2020-07-21"  =
     CCA_DestinacionEconomicaTipo = (
       /** Se califica con destino acuícola, aquellos predios donde se realizan cultivos de organismos acuáticos, en ambientes naturales o artificiales.
        */
-      !!@ ili2db.dispName = "Acuicola"
+      !!@ ili2db.dispName = "Acuícola"
       Acuicola,
       /** Se califica con destino agrícola, aquellos predios con funcionalidad de laboreo agrícola, terrenos que han sido transformados y ocupados para la producción de cultivos cuyo objetivo es satisfacer las necesidades alimentarias, comerciales y agrícolas.
        * 
@@ -746,7 +742,7 @@ VERSION "2020-07-21"  =
       Infraestructura_Hidraulica,
       /** Se califica con destino infraestructura de saneamiento básico, aquellos predios sobre los cuales se encuentra establecida la infraestructura para el saneamiento básico, con excepción del alcantarillado. Incluye los centros de acopio de basura y material reciclable, rellenos sanitarios e incineradoras.
        */
-      !!@ ili2db.dispName = "Infraestructura saneamiento"
+      !!@ ili2db.dispName = "Infraestructura de saneamiento básico"
       Infraestructura_Saneamiento_Basico,
       /** Se califica con destino infraestructura de seguridad, aquellos predios sobre los cuales se encuentra establecida infraestructura destina a salvaguardar el orden público. Incluye las estaciones de policía, batallones, cárceles, etc.
        */
@@ -762,7 +758,7 @@ VERSION "2020-07-21"  =
       Institucional,
       /** Se califica con destino minería e hidrocarburos, aquellos predios donde se hace aprovechamiento directo de los recursos minerales o transformación primaria de los mismos.
        */
-      !!@ ili2db.dispName = "Minería hidrocarburos"
+      !!@ ili2db.dispName = "Minería e hidrocarburos"
       Mineria_Hidrocarburos,
       /** Se califica con este destino, aquellos predios urbanos no construidos, ubicados en terrenos de grandes áreas que no han sido desarrollados y sin restricción legal para adelantar algún tipo de desarrollo urbanístico.
        */
@@ -1020,12 +1016,20 @@ VERSION "2020-07-21"  =
     );
 
     CCA_GrupoInteresadoTipo = (
+      /** Agrupación de personas naturales.
+       */
       !!@ ili2db.dispName = "Grupo civil"
       Grupo_Civil,
+      /** Agrupación de personas jurídicas.
+       */
       !!@ ili2db.dispName = "Grupo empresarial"
       Grupo_Empresarial,
+      /** Agrupación de personas pertenecientes a un grupo étnico.
+       */
       !!@ ili2db.dispName = "Grupo étnico"
       Grupo_Etnico,
+      /** Agrupación de personas naturales y jurídicas.
+       */
       !!@ ili2db.dispName = "Grupo mixto"
       Grupo_Mixto
     );
@@ -1098,400 +1102,6 @@ VERSION "2020-07-21"  =
       Concreto_Prefabricado,
       !!@ ili2db.dispName = "Bloque, ladrillo"
       Bloque_Ladrillo
-    );
-
-    CCA_ObjetoConstruccionTipo = (
-      /** Se refiere al conjunto compuesto por los cimientos, columnas, vigas, entrepisos y demás componentes del esqueleto o armadura que soportan las cargas y sostienen la edificación.  El adobe, bahareque, tapia, califíquelos con el puntaje correspondiente a madera.  En el caso de tener muros de carga en ladrillo, califíquelos como armazón de ladrillo.  En aquellas viviendas de hasta tres pisos y en donde se observe, vigas, columnas y planchas se colocan en la opción “concreto hasta tres pisos”.  La máxima calificación será para edificaciones de concreto de 4 o más pisos.
-       */
-      !!@ ili2db.dispName = "Armazón"
-      Armazon(
-        /** El adobe, bahareque, tapia, califíquelos con el puntaje correspondiente a madera.
-         */
-        !!@ ili2db.dispName = "(Armazón) Madera"
-        Madera,
-        /** Materiales prefabricados.
-         */
-        !!@ ili2db.dispName = "(Armazón) Prefabricado"
-        Prefabricado,
-        /** En el caso de tener muros de carga en ladrillo, califíquelos como armazón de ladrillo.
-         */
-        !!@ ili2db.dispName = "(Armazón) Ladrillo, bloque"
-        Ladrillo_Bloque,
-        /** En el caso de tener muros de carga en ladrillo, califíquelos como armazón de ladrillo.  En aquellas viviendas de hasta tres pisos y en donde se observe, vigas, columnas y planchas se colocan en la opción “concreto hasta tres pisos”.
-         */
-        !!@ ili2db.dispName = "(Armazón) Concreto hasta tres pisos"
-        Concreto_Hasta_Tres_Pisos,
-        /** La máxima calificación será para edificaciones de concreto de 4 o más pisos.
-         */
-        !!@ ili2db.dispName = "(Armazón) Concreto cuatro o más pisos"
-        Concreto_Cuatro_O_Mas_Pisos
-      ),
-      /** Se refiere a los muros divisorios no considerados como parte del armazón.
-       */
-      !!@ ili2db.dispName = "Muros"
-      Muros(
-        /** Muros de materiales de desecho o esterilla.
-         */
-        !!@ ili2db.dispName = "(Muros) Materiales de desecho, esterilla"
-        Materiales_Desecho_Esterilla,
-        /** Muros de bahareque o adobe o tapia.
-         */
-        !!@ ili2db.dispName = "(Muros) Bahareque, adobe, tapia"
-        Bahareque_Adobe_Tapia,
-        /** Muros de madera.
-         */
-        !!@ ili2db.dispName = "(Muros) Madera"
-        Madera,
-        /** Muros de concreto prefrabricado.
-         */
-        !!@ ili2db.dispName = "(Muros) Concreto prefabricado"
-        Concreto_Prefabricado,
-        /** Muros de bloque o ladrillo.
-         */
-        !!@ ili2db.dispName = "(Muros) Bloque, ladrillo"
-        Bloque_Ladrillo
-      ),
-      /** Techo exterior o tejado de la edificación
-       */
-      !!@ ili2db.dispName = "Cubierta"
-      Cubierta(
-        /** Cubierta características del estrado bajo-bajo, conformadas o construidas con elementos cuya función no es propiamente la de cubierta pero en casos extremos pueden servir como tales,  similarmente son utilizadas las tejas o telas asfálticas, que son los materiales más económicos del mercado y se ajustan a condiciones de vivienda humilde (ranchos) o construcciones provisionales (ramadas, caedizos, etc.).
-         */
-        !!@ ili2db.dispName = "(Cubierta) Materiales de desecho, telas asfalticas"
-        Materiales_Desecho_Telas_Asfalticas,
-        /** Materiales normalmente utilizados en la construcción de vivienda de estrato bajo, o provenientes de estratos más altos en decadencia.
-         * 
-         *  a-  Zinc.
-         * 
-         * Teja metálica económica colocada sobre infraestructura normalmente rústica y sencilla generalmente de madera.
-         * 
-         * b- Teja de barro.
-         * 
-         * Se clasifica en este aparte, la cubierta en teja de barro antigua caracterizada por su evidente deterioro; se le encuentra en la mayoría de los casos recubierta de musgo o lama, colocada sobre infraestructura también antigua de esterilla de guadua o caña brava, sistema evidentemente obsoleto.
-         * 
-         * c- Eternit rústico.
-         * 
-         * Se clasifica así no la calidad del eternit, sino la infraestructura sobre la cual se colocan las láminas que generalmente son de madera basta, sin canales ni bajantes y en la mayoría de los casos sin cielo raso.
-         */
-        !!@ ili2db.dispName = "(Cubierta) Zinc, teja de barro, eternit rústico"
-        Zinc_Teja_De_Barro_Eternit_Rustico,
-        /** Son planchas de concreto construidas como piso, de nivel superior no construido y utilizadas por período más o menos largo como cubierta provisional, algunas veces con adecuaciones sencillas, como pequeños muros que ejercen la función de barda, normalmente se aprecian las salientes de las varillas que reforzarán las construcciones del siguiente piso.  Además se encuentran cubiertas prefabricadas que se deben calificar con el mismo puntaje.
-         */
-        !!@ ili2db.dispName = "(Cubierta) Entrepiso (cubierta provisional) prefabricado"
-        Entrepiso_Cubierta_Provisional_Prefabricado,
-        /** Este tipo de cubiertas se caracterizan por ser relativamente nuevas, homogéneas en toda su extensión y con muestras de acabados más o menos buenos.  Se encuentran normalmente en programas masivos de vivienda pertenecientes a estratos medio-bajo y medio (nunca en estrato bajo); su estructura se diferencia de la clasificación en el punto dos por las siguientes condiciones:
-         * 
-         * - Mayor solidez en su infraestructura que aún siendo en madera demuestra ser construida con cierta técnica.
-         * 
-         * - Condiciones satisfactorias de acabado, con adecuados revocados e instalación de canales y bajantes.
-         * 
-         * - Se encuentra cielo raso.
-         */
-        !!@ ili2db.dispName = "(Cubierta) Eternit o teja de barro (cubierta sencilla)"
-        Eternit_O_Teja_De_Barro_Cubierta_Sencilla,
-        /** En este aparte se agrupan los tipos de cubiertas característicos de estratos medio-bajo, medio-alto y medio-medio.
-         * 
-         * a- Azotea: Tipo de cubierta, con acceso definido, pisos, muros y barandas como parte del acabado y construido con ese fin específico.  Si no posee estas condiciones se tomará como entrepiso cubierta provisional.
-         * 
-         * b- Placa sencilla con eternit o con teja de barro nueva.  De común aplicación en construcciones nuevas o medianamente nuevas, es una placa delgada de concreto y algunas veces aligerada e impermeabilizada y otras recubierta en eternit o teja de barro nueva.
-         */
-        !!@ ili2db.dispName = "(Cubierta) Azotea, aluminio, placa sencilla con eternit o teja de barro"
-        Azotea_Aluminio_Placa_Sencilla_Con_Eternit,
-        /** En este grupo se consideran los tipos de cubierta que caracterizan las viviendas del estrato alto y algunas del medio alto.
-         * 
-         * a- Placa impermeabilizada.  Es una plancha de concreto evidentemente sólida, la condición especial de esta placa es el de estar impermeabilizada lo cual conjuntamente con su solidez, la diferencia ampliamente de la placa sencilla anunciada en el grupo anterior.
-         * 
-         * b- Cubierta lujosa.  En algunos casos, la placa de concreto en vez de ser impermeabilizada es recubierta con teja de barro nueva o con algún material costoso como la paja.
-         * 
-         * c- Cubierta ornamental.  Se presentan cubiertas en materiales bastantes costosos, buscando adornar la construcción dándole matices de elegancia y atractivo.  Pueden encontrarse con o sin placa de concreto pero su valor permite clasificarlos en ese grupo.
-         */
-        !!@ ili2db.dispName = "(Cubierta) Placa imperbeabilizada cubierta lujosa u ornamental"
-        Placa_Impermeabilizada_Cubierta_Lujosa_U_Ornamental
-      ),
-      /** Nombrase como tal al conjunto de elementos que constituyen el frente o parte exterior de una construcción, que da cara a la vía o camino, que incluye la puerta de acceso.  Tomada dentro de la variable, acabados principales constituyen un concepto bastante representativo de la calidad de la vivienda.
-       */
-      !!@ ili2db.dispName = "Fachada"
-      Fachada(
-        /** -Puerta:  Fabricada con materiales como: Maderas burdas, lámina de zinc, lata o latones carecen por completo de lujos.
-         * 
-         * -Ventanas:  En la gran mayoría de casos son pequeñas, en madera burda o ángulo de hierro sencillo.
-         * 
-         * -Cubrimiento del muro:  Generalmente los muros no tienen cubrimiento, se presentan con ladrillo corrientes o bloque a la vista y en algunos casos pintura de cal o carburo directamente sobre el ladrillo, y en ocasiones pañete sin pintar o con pinturas muy económicas.
-         */
-        !!@ ili2db.dispName = "(Fachada) Pobre"
-        Pobre,
-        /** -Puerta:  En maderas sin trabajar o láminas metálicas sin ornamentación
-         * 
-         * -Ventanas:  Pequeñas o de regular tamaño, en madera sin trabajo ornamental o metal con pintura de aceite.
-         * 
-         * -Cubrimiento de muros:  En la mayoría de los casos se encuentran pañetes con pinturas económicas, o ladrillo prensado a la vista, generalmente un solo plano en el frente.
-         */
-        !!@ ili2db.dispName = "(Fachada) Sencilla"
-        Sencilla,
-        /** -Puerta de distintos tamaños, construidas en madera elaborada, o metal en lámina doblada, con rejas en ornamentación metálica en la mayoría de los casos.
-         * 
-         * -Cubrimiento:  Se encuentran frecuentemente pañetados y enlucidos con pintura de regular calidad; en urbanizaciones se utiliza bastante el pañete rústico pintado con cal o carburo.  Otras opciones son: En ladrillo prensado a la vista, el granito y la chapa de piedra de presentación sencilla.  Hasta dos planos enfrente y con una longitud entre 7 y 8 mts, con antejardín, donde la puerta de garaje forma parte integral de esta fachada.
-         */
-        !!@ ili2db.dispName = "(Fachada) Regular"
-        Regular,
-        /** -Puertas en maderas con cierto trabajo manual; en algunos casos en lámina prensada (pintada en aceite o en muy pocos casos al duco) con metal ornamentado y vidrio martillado.
-         * 
-         * -Ventanas:  Amplias, en lámina prensada o madera trabajada, pintura de aceite.  Las ventanas ocupan buena parte del frente y la fachada.
-         * 
-         * -Cubrimiento:  Pañete en cemento, pintura en vinilo, ladrillo prensado a la vista pintado en aceite, granito rústico fino pintado en vinilo, piedra pulida.
-         * 
-         * -La fachada presenta varios planos y tiene una longitud entre 10 y 14 mts, en el cual la puerta del garaje, en ocasiones doble, participa en forma importante.
-         */
-        !!@ ili2db.dispName = "(Fachada) Buena"
-        Buena,
-        /** -Puertas en maderas con cierto trabajo manual; en algunos casos en lámina prensada (pintada en aceite o en muy pocos casos al duco) con metal ornamentado y vidrio martillado.
-         * 
-         * -Ventanas:  Amplias, en lámina prensada o madera trabajada, pintura de aceite.  Las ventanas ocupan buena parte del frente y la fachada.
-         * 
-         * -Cubrimiento:  Pañete en cemento, pintura en vinilo, ladrillo prensado a la vista pintado en aceite, granito rústico fino pintado en vinilo, piedra pulida.
-         * 
-         * -La fachada presenta varios planos y tiene una longitud entre 10 y 14 mts, en el cual la puerta del garaje, en ocasiones doble, participa en forma importante.
-         */
-        !!@ ili2db.dispName = "(Fachada) Lujosa"
-        Lujosa
-      ),
-      /** Se califica de acuerdo al material y según las opciones que se presentan en el formulario, se tendrá en cuenta que si aparece por lo menos el 80% en pañete, se marcará este material y si aparece por lo menos un 20% de otro material de los más costosos (granito, madera, mármol), se marcará este en el formulario.  Si se encuentra por lo menos el 50% sin cubrimiento, se calificará como tal.  En caso de encontrarse un cubrimiento no completado en el formulario se asimilará, según el factor, más cercano de los referidos.  El pañete se refiere al cubrimiento en el cual se emplea solamente arena y cemento; el estuco es el cubrimiento fino sobre pañete.
-       * 
-       * Es necesario aclarar que en el caso del papel de colgadura, se debe tener en cuenta que éste se encuentra en dos categorías:
-       * 
-       * Papel común:  Características de las construcciones de estratos medio bajo y medio medio, se presenta en la mayoría de los casos textura gruesa y superficie corrugada.
-       * 
-       * Papel fino: Contrario al anterior, se encuentra normalmente en construcciones lujosas y se caracteriza por su textura fina, visible en los orillos y superficie lisa.  Sus acabados siempre son finos.
-       * 
-       * Además de los muros, el papel se encuentra en enchapes de baños y cocinas.
-       */
-      !!@ ili2db.dispName = "Cubrimiento de muros"
-      Cubrimiento_Muros(
-        /** Muros sin cubrimiento.
-         */
-        !!@ ili2db.dispName = "(Cubrimiento de muros) Sin cubrimiento"
-        Sin_Cubrimiento,
-        /** Muros con pañeteo papel comun o ladrillo prensado.
-         */
-        !!@ ili2db.dispName = "(Cubrimiento de muros) Pañete, papel común, ladrillo prensado"
-        Paniete_Papel_Comun_Ladrillo_Prensado,
-        /** Muros estucados con ceramica o papel fino.
-         */
-        !!@ ili2db.dispName = "(Cubrimiento de muros) Estuco, cerámica, papel fino"
-        Estuco_Ceramica_Papel_Fino,
-        /** Muros con madera o piedra ornamental.
-         */
-        !!@ ili2db.dispName = "(Cubrimiento de muros) Madera, piedra ornamental"
-        Madera_Piedra_Ornamental,
-        /** Muros con marmol o lujosos.
-         */
-        !!@ ili2db.dispName = "(Cubrimiento de muros) Mármol, lujosos otros"
-        Marmol_Lujosos_Otros
-      ),
-      /** En esta componente, se inscribirá lo referente al material predominante en el piso de la construcción según las opciones indicadas en el formulario y el más costoso si se encuentra en partes iguales.  Se marcará también con una X según la unidad de avalúo reconocida.
-       */
-      !!@ ili2db.dispName = "Piso"
-      Piso(
-        /** Piso en tierra pisada.
-         */
-        !!@ ili2db.dispName = "(Piso) Tierra pisada"
-        Tierra_Pisada,
-        /** Piso de cemento o madera burda.
-         */
-        !!@ ili2db.dispName = "(Piso) Cemento, madera burda"
-        Cemento_Madera_Burda,
-        /** Piso en baldosa común de cemento o tablon de ladrillo.
-         */
-        !!@ ili2db.dispName = "(Piso) Baldosa común de cemento, tablón de ladrillo"
-        Baldosa_Comun_De_Cemento_Tablon_Ladrillo,
-        /** Piso en liston machihembrado.
-         */
-        !!@ ili2db.dispName = "(Piso) Listón machihembrado"
-        Liston_Machihembrado,
-        /** Piso en tableta, caucho, acrilico, granito o baldosa fina.
-         */
-        !!@ ili2db.dispName = "(Piso) Tableta, caucho, acrílico, granito, baldosa fina"
-        Tableta_Caucho_Acrilico_Granito_Baldosa_Fina,
-        /** Piso en parquet, alfombr, retal de marmol.
-         */
-        !!@ ili2db.dispName = "(Piso) Parquet, alfombra, retal de mármol (grano pequeño)"
-        Parquet_Alfombra_Retal_De_Marmol,
-        /** Piso en retal de marmól, mármol u otros lujosos.
-         */
-        !!@ ili2db.dispName = "(Piso) Retal de mármol, mármol, otros lujosos"
-        Retal_De_Marmol_Marmol_Otros_Lujosos
-      ),
-      /** Corresponde al tamaño del baño de existente en la construcción.
-       */
-      !!@ ili2db.dispName = "Tamaño de baño"
-      Tamanio_Banio(
-        /** Sin baño
-         */
-        !!@ ili2db.dispName = "(Tamaño de baño) Sin baño"
-        Sin_Banio,
-        /** Si mide menos de 4 mts cuadrados.
-         */
-        !!@ ili2db.dispName = "(Tamaño de baño) Pequeño"
-        Pequenio,
-        /** Si su área aproximada se encuentra entre 4 y 6 mts.
-         */
-        !!@ ili2db.dispName = "(Tamaño de baño) Mediano"
-        Mediano,
-        /** Si su área es mayor a 6 mts cuadrados.
-         */
-        !!@ ili2db.dispName = "(Tamaño de baño) Grande"
-        Grande
-      ),
-      /** Se refiere al cubrimiento de los muros del baño principal, se calificará según las opciones establecidas en el formulario de reconocimiento, teniendo en cuenta que los materiales y condiciones no contemplados se deben asimilar al más parecido de ellos de acuerdo con el costo.  Marque el material que corresponda al mayor porcentaje o al más costoso si se encuentran por partes iguales.
-       */
-      !!@ ili2db.dispName = "Enchape de baño"
-      Enchape_Banio(
-        /** Baño sin enchape.
-         */
-        !!@ ili2db.dispName = "(Enchape de baño) Sin cubrimiento"
-        Sin_Cubrimiento,
-        /** Baño con enchape en baldosa común y cemento.
-         */
-        !!@ ili2db.dispName = "(Enchape de baño) Pañete, baldosa común de cemento"
-        Paniete_Baldosa_Comun_De_Cemento,
-        /** Baño con enchape en baldosin de un solo color o papel común.
-         */
-        !!@ ili2db.dispName = "(Enchape de baño) Baldosín unicolor, papel común"
-        Baldosin_Unicolor_Papel_Comun,
-        /** Baño con enchape en baldosín decorado o papel fino.
-         */
-        !!@ ili2db.dispName = "(Enchape de baño) Baldosín decorado, papel fino"
-        Baldosin_Decorado_Papel_Fino,
-        /** Baño con echape en ceramica crinstanac o granito.
-         */
-        !!@ ili2db.dispName = "(Enchape de baño) Cerámica cristanac, granito"
-        Ceramica_Cristanac_Granito,
-        /** Baño con echape en marmol o lujoso.
-         */
-        !!@ ili2db.dispName = "(Enchape de baño) Mármol, enchape lujoso"
-        Marmol_Enchape_Lujoso
-      ),
-      /** Conjunto de muebles que hacen parte del baño.
-       */
-      !!@ ili2db.dispName = "Mobiliario de baño"
-      Mobiliario_Banio(
-        /** Cuenta con uno o máximo dos servicios entre lavamanos retrete y ducha; los porcelanizados, en caso de tenerlos, son muy económicos; exceptuando los gabinetes pequeños de latón, no tiene ningún otro mobiliario ni divisiones.
-         */
-        !!@ ili2db.dispName = "(Mobiliario de baño) Pobre"
-        Pobre,
-        /** Esta categoría de baños cuenta con tres servicios.  Los porcenalizados de esta categoría son del tipo standard, se encuentran gabinetes muy sencillos y en latón y ocasionalmente pequeños armarios en madera burda o metal.
-         */
-        !!@ ili2db.dispName = "(Mobiliario de baño) Sencillo"
-        Sencillo,
-        /** Tiene mínimo tres servicios pero de tipo económico.  Tienen gabinetes de regular tamaño, algunas veces empotrados, lavamanos con mueble o pedestal y división de la ducha.
-         */
-        !!@ ili2db.dispName = "(Mobiliario de baño) Regular"
-        Regular,
-        /** Cuenta como mínimo con cuatro servicios, los porcenalizados son finos, en colores, con pedestales, adornos y grifería fina, tina, planchas de lavamanos generalmente en mármol con muebles en madera trabajada de tamaños regulares a grandes, con espejos más o menos grandes con luz integrada, la tina forma parte de la ducha, en el mismo espacio.
-         * 
-         * También se encuentran pequeños armarios y gabinetes auxiliares en madera o acrílico, empotrados o sobrepuestos.  Normalmente presentan división de la ducha, construida en aluminio y cristalita.
-         */
-        !!@ ili2db.dispName = "(Mobiliario de baño) Bueno"
-        Bueno,
-        /** Presentan mínimo cuatro servicios básicos, a los cuales corresponde porcenalizados y grifería de los más finos; a veces presenta también servicios extras como saunas o turcos con acondicionamientos especiales; en general tienen gabinetes finos en madera, con auxiliares para el lavamanos especiales, donde todos los servicios tienen su propio espacio diseñado.  Poseen también closets grandes y vestiers, divisiones y puertas en materiales finos, todo debidamente alfombrado o con cerámica en el piso.
-         */
-        !!@ ili2db.dispName = "(Mobiliario de baño) Lujoso"
-        Lujoso
-      ),
-      /** Corresponde al tamaño de la cocina existente en la construcción.
-       */
-      !!@ ili2db.dispName = "Tamaño de cocina"
-      Tamanio_Cocina(
-        /** No cuenta con cocina.
-         */
-        !!@ ili2db.dispName = "(Tamaño de cocina) Sin cocina"
-        Sin_Cocina,
-        /** Si el área general es menor de 5 Mts 2.
-         */
-        !!@ ili2db.dispName = "(Tamaño de cocina) Pequeña"
-        Pequenia,
-        /** Si tiene un área aproximada entre 5 y 10 Mts.
-         */
-        !!@ ili2db.dispName = "(Tamaño de cocina) Mediana"
-        Mediana,
-        /** Para un área mayor de los 10 Mts 2.
-         */
-        !!@ ili2db.dispName = "(Tamaño de cocina) Grande"
-        Grande
-      ),
-      !!@ ili2db.dispName = "Enchape de cocina"
-      Enchape_Cocina(
-        /** Cocina sin enchape.
-         */
-        !!@ ili2db.dispName = "(Enchape de cocina) Sin cubrimiento"
-        Sin_Cubrimiento,
-        /** Cocina enchapada con cemento y baldosa.
-         */
-        !!@ ili2db.dispName = "(Enchape de cocina) Pañete, baldosa de cemento"
-        Paniete_Baldosa_De_Cemento,
-        /** Cocina con enchape de baldosin de un solo color o papel común.
-         */
-        !!@ ili2db.dispName = "(Enchape de cocina) Baldosín unicolor, papel común"
-        Baldosin_Unicolor_Papel_Comun,
-        /** Cocina con enchape de baldosin decorado o papel fino.
-         */
-        !!@ ili2db.dispName = "(Enchape de cocina) Baldosín decorado, papel fino"
-        Baldosin_Decorado_Papel_Fino,
-        /** Cocina con enchape de ceramica o cristanac o granito.
-         */
-        !!@ ili2db.dispName = "(Enchape de cocina) Cerámica cristanac, granito"
-        Ceramica_Cristanac_Granito,
-        /** Cocina con echape de marmol o lujoso.
-         */
-        !!@ ili2db.dispName = "(Enchape de cocina) Mármol, enchape lujoso"
-        Marmol_Enchape_Lujoso
-      ),
-      !!@ ili2db.dispName = "Mobiliario de cocina"
-      Mobiliario_Cocina(
-        /** Se caracteriza por la escasez de mobiliario, se encuentran mesas y alacenas en madera burda o de materiales muy baratos.  En el mejor de los casos se encuentra un tablón o un planchon de cemento rústico que en oportunidades lleva empotrado un lavaplatos de latón con grifería barata y entrepisos en madera burda para guardar los elementos de cocina.
-         */
-        !!@ ili2db.dispName = "(Mobiliario de cocina) Pobre"
-        Pobre,
-        /** El mobiliario de una cocina es sencillo cuando cuenta con los elementos mínimos necesarios para hacerla funcional, con un cierto grado de comodidad.  Tiene por ejemplo un planchón de cemento o su equivalente, que complementa el fregadero o lavaplatos y casi siempre va enchapado en baldosín económico y con entrepaños de la misma estructura y material; a veces tienen puertas; la grifería es de tipo standard.  En ocasiones se encuentran muebles secundarios como mesas o alacenas en maderas burdas.
-         */
-        !!@ ili2db.dispName = "(Mobiliario de cocina) Sencillo"
-        Sencillo,
-        /** Cuenta con gabinetes inferiores o superiores construidos en metal o madera; la grifería es standard, mesón en acero inoxidable.
-         */
-        !!@ ili2db.dispName = "(Mobiliario de cocina) Regular"
-        Regular,
-        /** Lo encontramos en aquellas cocinas dotadas de gabinetes completos, inferiores y de pared en madera trabajada, planchan en metal inoxidable, normalmente con cocina integral; sistemas auxiliares de extracción y aireación.
-         */
-        !!@ ili2db.dispName = "(Mobiliario de cocina) Bueno"
-        Bueno,
-        /** Lo encontramos en aquellas cocinas dotadas de gabinetes completos, inferiores y de pared en madera trabajada, planchan en metal inoxidable, normalmente con cocina integral; sistemas auxiliares de extracción y aireación. Se encuentran trabajos en maderas finas y compactadores o trituradores de basura, muebles totalmente integrales cubriendo buena parte de los muros, donde el comedor auxiliar es parte de este mobiliario.  Su tamaño siempre es grande.
-         */
-        !!@ ili2db.dispName = "(Mobiliario de cocina) Lujoso"
-        Lujoso
-      ),
-      !!@ ili2db.dispName = "Cerchas complemento industria"
-      Cerchas_Complemento_Industria(
-        /** Se encuentran en construcciones antiguas y algunas nuevas pero con pequeñas luces donde el ancho de la bodega permita su utilización.
-         */
-        !!@ ili2db.dispName = "(Cerchas complemento industria) Madera"
-        Madera,
-        /** Son las que más se encuentran y se pueden dividir en tres grupos de acuerdo a la luz que permiten y los pesos que tienen que soportar.
-         */
-        !!@ ili2db.dispName = "(Cerchas complemento industria) Metálica liviana"
-        Metalica_Liviana,
-        /** Se encuentran en los talleres y pequeñas industrias cuyo ancho no tienen una gran luz y los pesos de las cubiertas son fáciles de soportar.
-         */
-        !!@ ili2db.dispName = "(Cerchas complemento industria) Metálica mediana"
-        Metalica_Mediana,
-        /** Este tipo de cercha corresponde a industrias cuyas bodegas o galpones tienen una luz considerable y las cubiertas que tienen que soportar las cerchas poseen un peso de alguna magnitud.
-         */
-        !!@ ili2db.dispName = "(Cerchas complemento industria) Metálica pesada"
-        Metalica_Pesada,
-        /** Es la altura de piso a techo de la cercha.
-         */
-        !!@ ili2db.dispName = "(Cerchas complemento industria) Altura"
-        Altura
-      )
     );
 
     CCA_OfertaTipo = (
@@ -1725,10 +1335,8 @@ VERSION "2020-07-21"  =
          */
         !!@ ili2db.dispName = "(Servidumbre) Energía eléctrica"
         Energia_Electrica,
-        /** Es el conjunto de actividades ordenadas a la distribución de gas combustible, por tubería u otro medio, desde un sitio de acopio de grandes volúmenes o desde un gasoducto central hasta la instalación de un consumidor final, incluyendo su conexión y medición. 
-         *  Se constituye la servidumbre a favor de la explotación de los gases derivados del petróleo.
-         *  Cuando sea necesario las empresas que prestan el servicio podrán pasar por predios ajenos por vía subterránea o superficial los cables o tuberías, ocupar temporalmente las zonas que requieren esos predios, remover los cultivos y obstáculos de toda clase que se encuentren en ellos, transitar, adelantar las obras y ejercer vigilancia en ellos y en general realizar todas las actividades necesarias para prestar el servicio.
-         *  Las líneas de distribución de gas combustible, podrán atravesar los ríos, caudales, líneas férreas, puentes, calles, caminos, y cruzar acueductos, oleoductos, y otras líneas o conducciones. (Art. 14 númeral 28, y artículo 57 de la Ley 142 de 1994).
+        /** Es el conjunto de actividades ordenadas a la distribución de gas combustible, por tubería u otro medio, desde un sitio de acopio de grandes volúmenes o desde un gasoducto central hasta la instalación de un consumidor final, incluyendo su conexión y medición. Se constituye la servidumbre a favor de la explotación de los gases derivados del petróleo.
+         *  Cuando sea necesario las empresas que prestan el servicio podrán pasar por predios ajenos por vía subterránea o superficial los cables o tuberías, ocupar temporalmente las zonas que requieren esos predios, remover los cultivos y obstáculos de toda clase que se encuentren en ellos, transitar, adelantar las obras y ejercer vigilancia en ellos y en general realizar todas las actividades necesarias para prestar el servicio. Las líneas de distribución de gas combustible, podrán atravesar los ríos, caudales, líneas férreas, puentes, calles, caminos, y cruzar acueductos, oleoductos, y otras líneas o conducciones. (Art. 14 númeral 28, y artículo 57 de la Ley 142 de 1994).
          */
         !!@ ili2db.dispName = "(Servidumbre) Gasoducto"
         Gasoducto,
@@ -1789,15 +1397,15 @@ VERSION "2020-07-21"  =
       /** No hay adulto en el momento de la visita.
        */
       !!@ ili2db.dispName = "Menor de Edad"
-      Menor_de_Edad,
+      Menor_Edad,
       /** Por temas de seguridad asociados a orden público no es posible el acceso.
        */
       !!@ ili2db.dispName = "Situación de Orden Público"
-      Situacion_de_Orden_Publico,
+      Situacion_Orden_Publico,
       /** Por limitaciones relacionadas con la topografía o accidentes geográficos no hubo acceso al predio.
        */
       !!@ ili2db.dispName = "Zona de difícil acceso"
-      Zona_de_dificil_acceso,
+      Zona_Dificil_Acceso,
       /** Otros casos no relacionados anteriormente.
        */
       !!@ ili2db.dispName = "Otro"
@@ -1814,7 +1422,13 @@ VERSION "2020-07-21"  =
     );
 
     CCA_SexoTipo = (
+      /** Identidad que representa la construcción sociocultural del hombre y es reconocida en el derecho mediante el documento de identificación.
+       */
+      !!@ ili2db.dispName = "Masculino"
       Masculino,
+      /** Identidad que representa la construcción sociocultural de la mujer y es reconocida en el derecho mediante el documento de identificación.
+       */
+      !!@ ili2db.dispName = "Femenino"
       Femenino,
       /** Corresponde a los datos sobre los cuales no se logró evidenciar el sexo, femenino o masculino, por no existir el soporte respectivo.
        */
@@ -2469,10 +2083,16 @@ VERSION "2020-07-21"  =
     );
 
     CCA_VolumenTipo = (
+      /** Se utiliza cuando el valor de volumen es reportado por una fuente externa válida.
+       */
       !!@ ili2db.dispName = "Oficial"
       Oficial,
+      /** Se utiliza cuando el valor de volumen es calculado a partir de las propiedades de la unidad espacial directamente.
+       */
       !!@ ili2db.dispName = "Calculado"
       Calculado,
+      /** Se utiliza cuando el valor de volumen es diferente a las dos anteriores.
+       */
       !!@ ili2db.dispName = "Otro"
       Otro
     );
